@@ -1,5 +1,4 @@
-import React, { createContext, useReducer, useState } from 'react';
-/* import { useState } from 'react/cjs/react.development'; */
+import React, { createContext, useReducer } from 'react';
 import { Reducer as Reducer, InitialState } from './Reducer'
 
 const WeatherContext = createContext();
