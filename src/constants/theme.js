@@ -1,4 +1,17 @@
 
+export const THEME = {
+    light: {
+        theme: "light",
+        color: 'black',
+        background: "white"
+    },
+    dark: {
+        theme: "dark",
+        color: 'white',
+        background: "black"
+    },
+};
+
 
 export const COLORS = {
     // base colors
@@ -40,6 +53,6 @@ export const FONTS = {
     emptyTitle: { fontFamily: "Roboto-Regular", fontSize: SIZES.body1, lineHeight: 36 },
 };
 
-const appTheme = { COLORS, FONTS, SIZES };
+const appTheme = { THEME, COLORS, FONTS, SIZES };
 
 export default appTheme;

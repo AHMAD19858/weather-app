@@ -19,6 +19,7 @@
     "moment": "^2.29.4",
     "react": "18.1.0",
     "react-native": "0.70.3",
+    "react-native-event-listeners": "^1.0.7",
     "react-native-gesture-handler": "^2.7.1",
     "react-native-linear-gradient": "^2.6.2",
     "react-native-paper": "^4.12.5",
